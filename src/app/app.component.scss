@@ -1,0 +1,22 @@
+.wrapper {
+  width: 100%;
+
+  .header {
+    font-size: 2rem;
+    font-weight: 900;
+
+    padding: 1rem;
+
+    .logo {
+      width: 5rem;
+    }
+  }
+
+  .body {
+    flex: 1;
+  }
+
+  .footer {
+    padding: 1rem;
+  }
+}

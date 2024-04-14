@@ -1,0 +1,11 @@
+.wrapper {
+  button {
+    background-color: #c73232;
+    width: 100%;
+    color: white;
+
+    &:hover {
+      background-color: #a40000;
+    }
+  }
+}

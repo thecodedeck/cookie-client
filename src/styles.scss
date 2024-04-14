@@ -1,0 +1,21 @@
+@import "css/variables.scss";
+@import "css/theme.scss";
+@import "css/flex-lib.scss";
+
+html,
+body,
+app-root {
+  font-family: $font-family;
+  color: $color-dark;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  flex: 1;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+html {
+  min-height: 100%;
+}

@@ -1,0 +1,56 @@
+.fl-row, .fl-column {
+    display: flex;
+}
+
+.fl-column {
+    flex-direction: column;
+}
+
+.fl-wrap {
+    flex-wrap: wrap;
+}
+
+.fl-justify-center {
+    justify-content: center;
+}
+
+.fl-align-center {
+    align-items: center;
+}
+
+.fl-full-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.fl-flex-1 {
+    flex: 1;
+}
+
+.fl-flex-2 {
+    flex: 2;
+}
+
+.fl-flex-3 {
+    flex: 3;
+}
+
+.gap-1 {
+    gap: 1rem;
+}
+
+.gap-2 {
+    gap: 2rem;
+}
+
+.gap-3 {
+    gap: 3rem;
+}
+
+.gap-4 {
+    gap: 4rem;
+}
+
+.full-width {
+    width: 100%;
+}
